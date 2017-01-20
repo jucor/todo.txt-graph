@@ -27,7 +27,7 @@ import re
 import collections
 
 TICK_CHAR = '■'
-DEFAULT_THRESHOLD = 5 # grey bar < DEFAULT_THRESHOLD >= green bar
+DEFAULT_THRESHOLD = 10 # grey bar < DEFAULT_THRESHOLD >= green bar
 WIDTH = 60 # Graph width
 DONE = "done.txt"
 TODO = "todo.txt"
